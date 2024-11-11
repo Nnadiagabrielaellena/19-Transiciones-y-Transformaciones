@@ -1,0 +1,37 @@
+.cont-img{
+      height: 50px;
+      width:600px;
+      position: relative;
+      
+     
+      
+      
+      }
+.cont-text-hover{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 600px;
+      color: white;
+      position: absolute;
+      padding-inline: 1rem;
+}
+body:hover .cont-img{
+      opacity: 1;
+}
+.cont-img:hover .cont-text-hover{
+      transform: scale(1.05);
+}
+h1{
+      font-size: 2rem;
+}
+h2{
+     width: 100%;
+     display: none;
+}
+
+.cont-text-hover:hover h2{
+      display: block;
+     
+      
+}
